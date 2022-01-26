@@ -11,6 +11,7 @@ body{
 #heading{
   font-size: 1.75em;
   text-align: center;
+  font-weight: bold;
   margin-top:50px ;
   margin-bottom: 50px;
 }
