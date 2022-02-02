@@ -10,6 +10,7 @@ body{
 
 #heading{
   font-size: 1.75em;
+  font-weight: bold;
   text-align: center;
   margin-top:50px ;
   margin-bottom: 50px;
@@ -46,6 +47,7 @@ section > div{
 #Chicken>p,#Beef>p,#Sushi>p{
   clear: both;
   padding: 10px;
+
 }
 
 
