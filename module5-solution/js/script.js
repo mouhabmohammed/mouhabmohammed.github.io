@@ -191,14 +191,17 @@ function buildCategoriesViewHtml(categories,
 
   var finalHtml = categoriesTitleHtml;
   finalHtml += "<section class='row'>";
-
+  
   // Loop over categories
-  //for (var i = 0; i < categories.length; i++) {
+  var chosenCategories=chooseRandomCategory(categories);
+  var short_name=chosenCategories.short_name;
+  /*for (var i = 0; i < categories.length; i++) {
     // Insert category values
     var html = categoryHtml;
-    var chosenCategories=chooseRandomCategory(categories);
-    var name = "" + chosenCategories.name;
-    var short_name = chosenCategories.short_name;
+    console.log(categories);
+    
+    var name = "" + categories[i].name;//chosenCategories.name;
+    var short_name = categories[i].short_name; //chosenCategories.short_name;
     html =
       insertProperty(html, "name", name);
     html =
@@ -206,10 +209,12 @@ function buildCategoriesViewHtml(categories,
                      "short_name",
                      short_name);
     finalHtml += html;
-  //}
+  }
 
   finalHtml += "</section>";
-  return finalHtml;
+  return finalHtml;*/
+  dc.loadMenuItems(short_name);
+
 }
 
 
