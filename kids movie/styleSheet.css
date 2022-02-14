@@ -75,8 +75,11 @@ body{
 .movie img{
 	margin: 20px;
 	border-radius: 15px;
+}
+.movie img:hover{
 	box-shadow: 5px 5px 10px #202020 ;
 }
+
 
 /*///////////////movie page////////////*/
 .back-forword{
