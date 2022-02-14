@@ -3,13 +3,13 @@ html{
 }
 body{
 	position: absolute;
-	margin: 10px;
+	margin: 5px;
 	width: 100%;
 	background-color:#D7BCD4;
 }
 #searchBar{
 	position: relative;
-	margin: 40px auto 10px;
+	margin: 20px auto 10px;
     width: 80%;
     height: 80px;
     display: flex;
@@ -36,12 +36,14 @@ body{
 }
 /*///////////////////////////*/
 
+
+
 .movies{
 	
 	
 	position: relative;
 	width:900px;
-	margin:50px auto;
+	margin:30px auto;
 	
 }
 .movie-line{
@@ -49,7 +51,7 @@ body{
 	box-sizing: border-box;
 	display: flex;
 	width: 100%;
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 .movie-line center{
@@ -72,10 +74,26 @@ body{
 	margin: 20px;
 }
 
-/*///////////////second page////////////*/
+/*///////////////movie page////////////*/
+.back-forword{
+	display: flex;
+}
+.back,.forward{
+
+     font-size: 50px;
+	margin: 10px 15px;
+	
+}
+.back:hover,.forward:hover{
+	font-size: 50px;
+	margin: 10px 15px;
+	color: #204180;
+	
+}
+
 .title{
    text-decoration-thickness :1px;
-	margin: 80px auto;
+	margin: 40px auto;
 	width: 304px;
     height: 57px;
 	font-family: 'Gideon Roman', cursive;
@@ -93,7 +111,7 @@ body{
 .movie-infs{
 	display: flex;
 	padding: 0 200px;
-	margin:100px auto ;
+	margin:50px auto ;
 }
 .movie-infs img{
 	width: 350px;
@@ -129,7 +147,7 @@ body{
 .discription{
 	background: #A770EC;
 	margin: auto;
-	padding: 20px;
+	padding: 10px;
 	width: 878px;
     height: 269px;
 	margin-bottom:200px ;
