@@ -161,6 +161,7 @@ body{
 .discription p{
 	width: 688px;
     height: 200px;
+	padding-bottom:20px;
 	margin: 10px auto;
 	font-family: 'Gideon Roman', cursive;
 	font-style: normal;
