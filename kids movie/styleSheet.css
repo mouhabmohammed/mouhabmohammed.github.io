@@ -1,0 +1,171 @@
+html{
+	
+}
+body{
+	position: absolute;
+	margin: 10px;
+	width: 100%;
+	background-color:#D7BCD4;
+}
+#searchBar{
+	position: relative;
+	margin: 40px auto 10px;
+    width: 80%;
+    height: 80px;
+    display: flex;
+    background-color:#BAC4F6;
+	box-shadow:2px 2px 1px #d872cc;
+
+}
+.search{
+	margin-top: 20px;
+	margin-left: 30px;
+	width: 500px;
+    height: 30px;
+}
+.searchBtn{
+	width: 100px;
+    height: 34px;
+    margin-top: 18px; ;
+    margin-left: 10px;
+}
+#logo_img{
+	position: absolute;
+	right: 30px;
+	height: 100%;
+}
+/*///////////////////////////*/
+
+.movies{
+	
+	
+	position: relative;
+	width:900px;
+	margin:50px auto;
+	
+}
+.movie-line{
+	position: relative;
+	box-sizing: border-box;
+	display: flex;
+	width: 100%;
+	margin-top: 50px;
+}
+
+.movie-line center{
+	font-family: 'Gideon Roman', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform:uppercase;
+	box-shadow:2px 2px 1px #d872cc;
+   
+
+}
+.movie{
+	display: inline-block;
+	margin: 10px;
+}
+
+.movie img{
+	margin: 20px;
+}
+
+/*///////////////second page////////////*/
+.title{
+   text-decoration-thickness :1px;
+	margin: 80px auto;
+	width: 304px;
+    height: 57px;
+	font-family: 'Gideon Roman', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    text-decoration-line: underline;
+	color: #454BDC;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+.movie-infs{
+	display: flex;
+	padding: 0 200px;
+	margin:100px auto ;
+}
+.movie-infs img{
+	width: 350px;
+    height: 500px;
+}
+
+.infs{
+	display: block;
+	text-decoration-style: none;
+	margin: auto;
+	
+}
+
+.inf{
+	box-sizing: border-box;
+	width: 454px;
+    height: 76px;
+	background: #A770EC;
+	margin: 40px auto;
+	list-style: none;
+	text-align: center;
+	padding: 20px;
+	font-family: 'Gideon Roman', cursive;
+ 	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+
+/* identical to box height */
+
+	color: #000000;
+}
+.discription{
+	background: #A770EC;
+	margin: auto;
+	padding: 20px;
+	width: 878px;
+    height: 269px;
+	margin-bottom:200px ;
+	
+}
+
+.movie-infs img:hover, .discription:hover,  .inf:hover {
+	box-shadow:1px 2px 2px #324636;
+} 
+
+.discription p{
+	width: 688px;
+    height: 200px;
+	margin: 10px auto;
+	font-family: 'Gideon Roman', cursive;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	
+	color: #FAFAFF;
+	
+	
+	
+
+}
+.discription h1{
+	margin-left:100px ;
+	font-family: 'Gideon Roman', cursive;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+	
+	/* identical to box height */
+	
+	color: #000000;
+}
+
