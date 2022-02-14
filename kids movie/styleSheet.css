@@ -69,11 +69,13 @@ body{
 .movie{
 	display: inline-block;
 	margin: 10px;
+	
 }
 
 .movie img{
 	margin: 20px;
 	border-radius: 15px;
+	box-shadow: 5px 5px 10px #202020 ;
 }
 
 /*///////////////movie page////////////*/
