@@ -33,6 +33,7 @@ body{
 	position: absolute;
 	right: 30px;
 	height: 100%;
+	border-radius: 10%;
 }
 /*///////////////////////////*/
 
@@ -72,6 +73,7 @@ body{
 
 .movie img{
 	margin: 20px;
+	border-radius: 15px;
 }
 
 /*///////////////movie page////////////*/
@@ -116,6 +118,7 @@ body{
 .movie-infs img{
 	width: 350px;
     height: 500px;
+	border-radius: 15px;
 }
 
 .infs{
@@ -139,6 +142,7 @@ body{
 	font-weight: normal;
 	font-size: 24px;
 	line-height: 28px;
+	border-radius: 15px;
 
 /* identical to box height */
 
@@ -151,11 +155,12 @@ body{
 	width: 878px;
     height: 269px;
 	margin-bottom:200px ;
+	border-radius: 15px;
 	
 }
 
 .movie-infs img:hover, .discription:hover,  .inf:hover {
-	box-shadow:1px 2px 2px #324636;
+	box-shadow: 5px 5px 10px #202020 ;
 } 
 
 .discription p{
