@@ -153,7 +153,7 @@ body{
 	margin: auto;
 	padding: 10px;
 	width: 878px;
-    height: 269px;
+    height: auto;
 	margin-bottom:200px ;
 	border-radius: 15px;
 	
@@ -165,8 +165,7 @@ body{
 
 .discription p{
 	width: 688px;
-    height: 200px;
-	padding-bottom:20px;
+    height: auto;
 	margin: 10px auto;
 	font-family: 'Gideon Roman', cursive;
 	font-style: normal;
